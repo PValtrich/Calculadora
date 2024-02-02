@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: none;
+}
+html, body{
+    font-family: arial;
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+main{ 
+    height: 80rem;
+    width: 50rem;
+    background: rgb(32, 32, 32);
+    border-radius: 1rem;
+}
+section{
+    height: 4rem;
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+h2{
+    color: white;
+    font-size: 2.5rem;
+}
+header{ /*Div top*/
+    height: 30rem;
+    width: 50rem;
+}
+.digit-number{ /*Div bottom*/
+    height: 50rem;
+    width: 50rem;
+}
+.button-clock-time{ /*Botão do historico*/
+    height: 4rem;
+    width: 4rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+.history--{ 
+    font-size: 3rem;
+    color: white;
+}
+.number-quest{ /*Painel*/
+    height: 26rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#calc-number{
+    height: 7rem;
+    width: 95%;
+    font-size: 6rem;
+    direction: rtl;
+    background: none;
+    border: none;
+    color: white;
+}
+::placeholder {
+    color: white;
+  }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.line{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+.num{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teclas{
+    width: 98%;
+    height: 98%;
+    font-size: 4rem;
+    color: white;
+    background: rgb(64, 58, 55);
+    border: none;
+    border-radius: 1rem;
+}
+.color-selector{
+    background: rgb(200, 145, 209);
+}
+.teclas:hover{
+    background: rgb(55, 49, 46);
+}

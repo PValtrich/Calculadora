@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <!--Link Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--Link Icons Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--Link CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="all"> <!--Div de tudo-->
+
+        <main> <!--Body da Calculadora-->
+
+            <header> <!--Top-->
+
+                <section>
+                    <button class="button-clock-time"> <!--Botão do historico-->
+                        <i class="bi bi-clock-history history--"></i>
+                    </button>
+                    <h2>Histórico</h2>
+                </section>
+
+                <div class="number-quest"> <!--Painel-->
+                    <input type="number" id="calc-number" placeholder="0">
+                </div>
+
+            </header>
+
+            <div class="digit-number"> <!--Bottom-->
+                <div class="line">
+                    <div class="num">
+                        <button class="teclas">7</button>
+                    </div>
+                    <div class="num">
+                        <button class="teclas">8</button>
+                    </div>
+                    <div class="num">
+                        <button class="teclas">9</button>
+                    </div>
+                    <div class="num">
+                        <button class="teclas">CE</button>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="num">
+                        <button class="teclas">4</button>
+                    </div>
+                    <div class="num">
+                        <button class="teclas">5</button>
+                    </div>
+                    <div class="num">
+                        <button class="teclas">6</button>
+                    </div>
+                    <div class="num">
+                        <button class="teclas">X</button>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="num">
+                        <button class="teclas">1</button>
+                    </div>
+                    <div class="num">
+                        <button class="teclas">2</button>
+                    </div>
+                    <div class="num">
+                        <button class="teclas">3</button>
+                    </div>
+                    <div class="num">
+                        <button class="teclas">/</button>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="num">
+                        <button class="teclas">+</button>
+                    </div>
+                    <div class="num">
+                        <button class="teclas">0</button>
+                    </div>
+                    <div class="num">
+                        <button class="teclas">-</button>
+                    </div>
+                    <div class="num">
+                        <button class="teclas color-selector">=</button>
+                    </div>
+                </div>
+                
+            </div>
+        </main>
+
+    </div>
+
+
+    <!--Link JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
